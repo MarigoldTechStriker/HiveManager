@@ -6,7 +6,7 @@ format_version = "1.16.0";
 is minecraft_block;
 }
 let class = "description";
-  let identifier = "hive:redwood_plank";
+  let identifier = "hive:redwood_vertical_plank";
   let isExperimental = "true";
   let registerToCreativeMenu = "true";
   let menuCategory = "construction";
