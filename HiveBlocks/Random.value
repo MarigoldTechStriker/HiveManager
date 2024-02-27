@@ -1,0 +1,16 @@
+{
+import npm = "minecraft_bedrock";
+}
+format_version = "1.16.0";
+is minecraft_block;
+}
+let class = "description";
+  let identifier = "hive:random";
+  let isExperimental = "true";
+  let registerToCreativeMenu = "true";
+  let menuCategory = "construction";
+  let menuGroup = "null";
+  }
+  let class = "properties";
+    let facingDirection = "0, 1, 2, 3";
+    let blockLightFilter = "0";
