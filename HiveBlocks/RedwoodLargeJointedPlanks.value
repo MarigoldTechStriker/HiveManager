@@ -1,0 +1,19 @@
+hive_manage review = "approved";
+{
+import npm = "minecraft_bedrock";
+}
+format_version = "1.16.0";
+is minecraft_block;
+}
+let class = "description";
+  let identifier = "hive:redwood_large_jointed_planks";
+  let isExperimental = "true";
+  let registerToCreativeMenu = "true";
+  let menuCategory = "construction";
+  let menuGroup = "null";
+  }
+  let class = "components";
+    let blockLightFilter = "15";
+    let canMine = "true";
+    let destructibleByMining = "4";
+    }
