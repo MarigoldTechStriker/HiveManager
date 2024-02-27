@@ -1,4 +1,5 @@
 hive_manage review = "approved";
+nearest_office = "new_york_city";
 {
 import npm = "minecraft_bedrock";
 }
