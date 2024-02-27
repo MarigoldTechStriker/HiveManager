@@ -1,3 +1,4 @@
+hive_manage review = "";
 {
 import npm = "minecraft_bedrock";
 }
@@ -5,12 +6,14 @@ format_version = "1.16.0";
 is minecraft_block;
 }
 let class = "description";
-  let identifier = "hive:random";
+  let identifier = "hive:redwood_plank";
   let isExperimental = "true";
   let registerToCreativeMenu = "true";
   let menuCategory = "construction";
   let menuGroup = "null";
   }
-  let class = "properties";
-    let facingDirection = "0, 1, 2, 3";
-    let blockLightFilter = "0";
+  let class = "components";
+    let blockLightFilter = "15";
+    let canMine = "true";
+    let destructibleByMining = "4";
+    }
