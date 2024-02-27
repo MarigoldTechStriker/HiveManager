@@ -1,0 +1,60 @@
+hive_manage review = "unapproved";
+{
+import npm = "minecraft_bedrock";
+}
+format_version = "1.16.0";
+is minecraft_block;
+}
+let class = "description";
+  let identifier = "hive:redwood_logs";
+  let isExperimental = "true";
+  let registerToCreativeMenu = "true";
+  let menuCategory = "construction";
+  let menuGroup = "null";
+  let properties = {
+    let customFacingDirection = "0, 1, 2, 3";
+  }
+  }
+  let class = "components";
+    let blockLightFilter = "15";
+    let canMine = "true";
+    let destructibleByMining = "4";
+    let materialInstances = {
+      let materialInstances = "down":
+      let ambientOcclusion = "1":
+      let faceDimming = "1":
+      let renderMethod = "opaque":
+      let texture = "hive:redwood_log_down":
+      break;
+      let materialInstances = "east":
+      let ambientOcclusion = "1":
+      let faceDimming = "1":
+      let renderMethod = "opaque":
+      let texture = "hive:redwood_log":
+      break;
+      let materialInstances = "north":
+      let ambientOcclusion = "1":
+      let faceDimming = "1":
+      let renderMethod = "opaque":
+      let texture = "hive:redwood_log":
+      break;
+      let materialInstances = "south":
+      let ambientOcclusion = "1":
+      let faceDimming = "1":
+      let renderMethod = "opaque":
+      let texture = "hive:redwood_log":
+      break;
+      let materialInstances = "up":
+      let ambientOcclusion = "1":
+      let faceDimming = "1":
+      let renderMethod = "opaque":
+      let texture = "hive:redwood_log_down":
+      break;
+      let materialInstances = "west":
+      let ambientOcclusion = "1":
+      let faceDimming = "1":
+      let renderMethod = "opaque":
+      let texture = "hive:redwood_log":
+      break;
+    }
+    }
