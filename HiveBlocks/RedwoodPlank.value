@@ -1,4 +1,4 @@
-hive_manage review = "";
+hive_manage review = "approved";
 {
 import npm = "minecraft_bedrock";
 }
