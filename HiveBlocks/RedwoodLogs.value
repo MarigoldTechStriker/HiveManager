@@ -1,4 +1,4 @@
-hive_manage review = "unapproved";
+hive_manage review = "approved";
 {
 import npm = "minecraft_bedrock";
 }
@@ -55,6 +55,27 @@ let class = "description";
       let faceDimming = "1":
       let renderMethod = "opaque":
       let texture = "hive:redwood_log":
+      break;
+    }
+    let onPlayerPlacing = event{"update_facing_direction"};
+    let unitCube = "null";
+    let permutation = {
+      let transformation = rotate{"0, 0, 0"};
+      let transformation = scale{"1, 1, 1,"};
+      let transformation = translation{"0, 0, 0"};
+    }
+    let condition = {
+      let queryBlockProperty = customFacingDirection{customFacingDirection == 0};
+      let transformation = rotate{"90, 0, 0"}:
+      let transformation = scale{"1, 1, 1"}:
+      let transformation = translation{"0, 0, 0"}:
+      break;
+      let queryBlockProperty = customFacingDirection{customFacingDirection == 1};
+      let transformation = rotate{"0, 0, 90"}:
+      let transformation = scale{"1, 1, 1"}:
+      let transformation = translation{"0, 0, 0"}:
+      break;
+      let queryBlockProperty = customFacingDirection{customFacingDirection == 2};
       break;
     }
     }
